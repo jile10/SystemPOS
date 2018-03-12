@@ -2,20 +2,20 @@
 <html>
 	<head>
 		<title>Itransform - Home</title>
-		<link rel="icon" href="img/logo1.png" type="image/png">
+		<link rel="icon" href="/img/logo1.png" type="image/png">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="" />
 		<meta name="author" content="http://bootstraptaste.com" />
 		<!-- css -->
-		<link href="css/bootstrap.min.css" rel="stylesheet" />
-		<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-		<link href="css/jcarousel.css" rel="stylesheet" />
-		<link href="css/flexslider.css" rel="stylesheet" />
-		<link href="css/style.css" rel="stylesheet" />
+		<link href="/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+		<link href="/css/jcarousel.css" rel="stylesheet" />
+		<link href="/css/flexslider.css" rel="stylesheet" />
+		<link href="/css/style.css" rel="stylesheet" />
 
 		<!-- Theme skin -->
-		<link href="skins/default.css" rel="stylesheet" />
-		<link href="fonts/fontawesome-webfont.ttf"/>
+		<link href="/skins/default.css" rel="stylesheet" />
+		<link href="/fonts/fontawesome-webfont.ttf"/>
 	</head>
 	<body>
 		<div id="wrapper">
@@ -29,7 +29,7 @@
 		                        <span class="icon-bar"></span>
 		                        <span class="icon-bar"></span>
 		                    </button>
-		                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" width="199" height="52" /></a>
+		                    <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="" width="199" height="52" /></a>
 		                </div>
 		                <div class="navbar-collapse collapse ">
 		                    <ul class="nav navbar-nav">

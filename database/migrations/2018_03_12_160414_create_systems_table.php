@@ -17,7 +17,6 @@ class CreateSystemsTable extends Migration
             $table->increments('id');
             $table->string('name',255);
             $table->text('description')->null();
-            $table->double('price',12,2);
             $table->timestamps();
         });
     }

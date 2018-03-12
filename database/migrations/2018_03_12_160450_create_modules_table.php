@@ -17,7 +17,7 @@ class CreateModulesTable extends Migration
             $table->increments('id');
             $table->string('name',255);
             $table->text('description')->null();
-            $table->double('price',12,2)->null();
+            $table->double('price',12,2);
             $table->timestamps();
         });
     }

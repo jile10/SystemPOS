@@ -15,3 +15,5 @@ Route::get('/', 'HomeController@home');
 Route::get('/about', 'HomeController@about');
 Route::get('/contact', 'HomeController@contact');
 Route::get('/login', 'HomeController@login');
+Route::get('/backend/dashboard', 'AdminController@dashboard');
+Route::get('/backend/modules', 'AdminController@modules');

@@ -17,3 +17,4 @@ Route::get('/contact', 'HomeController@contact');
 Route::get('/login', 'HomeController@login');
 Route::get('/backend/dashboard', 'AdminController@dashboard');
 Route::get('/backend/modules', 'AdminController@modules');
+Route::get('/backend/systems', 'AdminController@systems');

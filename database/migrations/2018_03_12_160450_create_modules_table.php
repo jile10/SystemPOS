@@ -16,7 +16,7 @@ class CreateModulesTable extends Migration
         Schema::create('modules', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name',255);
-            $table->text('description')->null();
+            $table->text('description')->nullable();
             $table->double('price',12,2);
             $table->timestamps();
         });

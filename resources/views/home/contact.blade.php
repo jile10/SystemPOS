@@ -21,7 +21,7 @@
 							<textarea name="message" id="message" required class="form-control" rows="8" placeholder="Your Message Here"></textarea>
 						</div>                        
 						<div class="form-group col-md-12">
-							<input type="submit" name="submit" class="btn btn-primary pull-right" value="Submit">
+							<input type="submit" name="submit" class="btn btn-primary btn-rounded pull-right" value="Submit">
 						</div>
 					</form>
 				</div>

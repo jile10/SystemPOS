@@ -17,7 +17,6 @@ class CreateSystemsModulesTable extends Migration
             $table->increments('id');
             $table->integer('module_id')->unsigned();
             $table->integer('system_id')->unsigned();
-            $table->boolean('is_default');
             $table->timestamps();
 
             $table->foreign('module_id')->references('id')->on('modules')->onDelete('cascade');

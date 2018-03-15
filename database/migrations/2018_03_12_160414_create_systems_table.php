@@ -16,7 +16,7 @@ class CreateSystemsTable extends Migration
         Schema::create('systems', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name',255);
-            $table->text('description')->null();
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }

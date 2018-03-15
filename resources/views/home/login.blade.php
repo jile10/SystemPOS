@@ -1,28 +1,34 @@
-@extends('home.layouts.master')
-@section('content')
-<section id="content">
-	<div class="container">
-
-		<div class="row">
-			<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-				<form role="form" class="register-form">
-					<h2>Sign in <small>manage your account</small></h2>
-					<hr class="colorgraph">
-					<div class="form-group">
-						<input type="text" name="username" id="username" class="form-control input-lg" placeholder="Username" tabindex="4">
-					</div>
-					<div class="form-group">
-						<input type="password" name="password" class="form-control input-lg" id="password" placeholder="Password">
-					</div>
-					<hr class="colorgraph">
-					<div class="row">
-						<div class="col-lg-offset-10 col-md-offset-2 col-sm-offset-3 col-xs-offset-5">
-							<button type="button" name="submit" class="btn btn-lg btn-theme" id="login">LOGIN</button>   
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-</section>
-@endsection
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Itransform - Login</title>
+        <link rel="icon" href="/img/logo1.png" type="image/png">
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <div class="h-100">
+            <div class="row ml-0 mr-0 justify-content-center mar-auto">
+                <div class="login-container">
+                    <form action="/backend/prelogin" method="post">
+                        {{csrf_field()}}
+                        <p class="oval-bookmark"></p>
+                		<img src="/yes.png" alt="" width="300" height="140"/>
+                        <div>
+                            <input type="email" name="email" class="username" placeholder="Email">
+                        </div>
+                        <div>
+                            <input type="password" name="password" class="password" placeholder="Password">
+                        </div>
+                        <div>
+                            <button class="button">LOGIN</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
